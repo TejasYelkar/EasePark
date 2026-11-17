@@ -1,0 +1,5 @@
+cd smartpark-backend 
+ .\mvnw.cmd spring-boot:run 
+
+cd MyFirstApp
+ npx expo start

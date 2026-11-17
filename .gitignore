@@ -1,0 +1,30 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node and Expo
+node_modules/
+.expo/
+web-build/
+
+# Build output
+**/target/
+**/build/
+**/dist/
+
+# Local data and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
